@@ -27,7 +27,7 @@ final class MainViewModel: MainViewModelProtocol {
     // MARK: - Methods
 
     func handleOnAppear() {
-        //fullScreenCover = .MainTab
+        fullScreenCover = .MainTab
         return
     }
 }
