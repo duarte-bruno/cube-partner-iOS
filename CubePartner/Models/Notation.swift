@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-enum Notation: String, CaseIterable, Identifiable {
+enum Notation: String, CaseIterable, Identifiable, Codable {
     
     // MARK: - Side layers of the cube
     
