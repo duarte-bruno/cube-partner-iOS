@@ -23,10 +23,10 @@ struct MainView<ViewModel: MainViewModelProtocol>: View {
             ZStack {
                 GeometryReader { geometry in
                     VStack {
-                        Image("logo-vertical")
+                        Image("logo")
                             .resizable()
                             .scaledToFit()
-                            .frame(width: geometry.size.width * 0.6)
+                            .frame(width: geometry.size.width * 0.4)
                             .aspectRatio(1, contentMode: .fit)
                     }
                     .frame(width: geometry.size.width, height: geometry.size.height)
